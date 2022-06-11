@@ -1,0 +1,64 @@
+.pup{
+    color: blue;
+}
+body{
+    background-color: purple ;   
+    font-family: 'Courier New', Courier, monospace;
+    color:  white;
+    line-height: 25px;
+}
+
+.con{
+    width: 100%;
+    height: auto;
+    margin: 20px;
+    display: inline-block;
+}
+.btn{
+    color: aquamarine;
+    background-color: aqua;
+    padding: 13px 42px;
+    border-radius:20px;
+    text-decoration: none;
+}
+#navbar{
+    list-style:none;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 5px; left: 5px;
+    background: rgb(27, 26, 26);
+    box-shadow: 2px 0px 5px black;
+    border-bottom: 2px solid blue;
+    display: flex;
+    justify-content: space-around;
+}
+nav{
+    padding-top: 10px;
+    align-items: center;
+}
+a{
+    margin: 5px;
+    padding: 5px;
+    color: grey;
+    text-decoration: none;
+    font-size: 2rem;
+}
+nav a:hover{
+    background-color: rgb(49, 45, 45);
+    color: white;
+}
+nav a:link{
+    color: gray;
+}
+nav a:active{
+    color: black;
+}
+section{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
